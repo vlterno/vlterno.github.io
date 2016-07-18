@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Vlterno portfolio.</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Bad+Script&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="css/base.css">
+	<link rel="stylesheet" href="css/custom.css">
+	<!-- JavaScript -->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+	<div class="page-1">
+		<div class="square-box">
+			<div class="main-row">
+				<div class="half main-columns square-1 square-simp">
+					<p>Обо мне</p>
+				</div>
+				<div class="half main-columns square-2 square-simp">
+					<p>Портфолио</p>
+				</div>
+			</div>
+			<div class="main-row">
+				<div class="half main-columns square-3 square-simp">
+					<p>Что я умею</p>
+				</div>
+				<div class="half main-columns square-4">
+					<br><p>Меня зовут Владимир</p>
+					<p>Я инженер</p>
+				</div>
+			</div>
+			<div class="main-row">
+				<div class="half main-columns square-5 square-simp">
+					<p>Опыт работы</p>
+				</div>
+				<div class="half main-columns square-6 square-simp">
+					<p>Контакты</p>
+				</div>
+			</div>
+			<a class="main-button-space">
+			</a>
+		</div>
+	</div>
+
+	<div class="page-2">
+		<div class="container first-content">
+			<hr>
+			<div class="row">
+				<div class="four columns">
+					<img class="u-max-full-width image-cl" src="img/1.png">
+				</div>
+				<div class="eight columns">
+					<h5>Привет!</h5>
+					<p>Меня зовут Владимир Терновых.</p>
+					<p>Я инженер-конструктор, метролог, увлекаюсь моделированием, веб-дизайном и разработкой.</p>
+					<p>Я выпусткник МГТУ им. Баумана по направлению "Метрология, стандартизация и сертификация".</p>
+				</div>
+			</div>
+			<hr>
+		</div>
+
+		<div class="container second-content">
+			<div class="row">
+				<div class="twelve columns tit">
+					<h4>Что я умею</h4>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="seven columns content">
+					<h5 class="mini-tit mt1">Проектирование и моделирование изделий.</h5>
+					<p>Знание программ:</p>
+					<li>CATIA</li>
+					<li>Autodesk Inventor, Fusion</li>
+					<li>Autodesk AutoCAD</li>
+				</div>
+				<div class="five columns">
+					<img class="u-max-full-width image-r" src="img/1m.png">
+				</div>				
+			</div>
+
+			<div class="row">
+				<div class="five columns">
+					<img class="u-max-full-width image-l" src="img/2m.png">
+				</div>
+				<div class="seven columns content">
+					<h5 class="mini-tit mt2">Знание ЕСКД и ЕСТД</h5>
+					<p>Разработка и оформление конструкторской и технической документации. Метрологическая экспертиза чертежей.</p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="seven columns content">
+					<h5 class="mini-tit mt3">Языки программирования и среды.</h5>
+					<p>Знание языков программирования:<li>Python</li><li>HTML/CSS</li><li>JavaScript</li></p>
+					<p>Навыки работы в терминале bash семейства систем linux.</p>
+				</div>
+				<div class="five columns">
+					<img class="u-max-full-width image-ri" src="img/1p.png">
+				</div>				
+			</div>
+
+			<div class="row">
+				<div class="five columns">
+					<img class="u-max-full-width image-lw" src="img/1w.png">
+				</div>
+				<div class="seven columns content">
+					<h5 class="mini-tit mt4">Веб дизайн</h5>
+					<p>Увлекаюсь созданием сайтов. Для создания рисунков использую Corel Draw.</p>
+				</div>
+			</div>
+			<hr>	
+		</div>
+
+		<div class="container second-content">
+			<div class="row">
+				<div class="twelve columns tit">
+					<h4>Опыт работы</h4>
+				</div>
+			</div>
+
+			<hr>	
+		</div>
+
+
+
+	</div>
+
+	<!-- End Document
+	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+	<script type="text/javascript">
+		var scroll_to = function(elem) {
+			$('html, body').animate({ scrollTop: $(elem).offset().top }, 1000);
+		}
+		$(".main-button-space").click(function(){scroll_to(".page-2");})
+		$(".square-1").click(function(){scroll_to(".first-content");})
+		$(".square-3").click(function(){scroll_to(".second-content");})
+	</script>
+
+</body>
+</html>
