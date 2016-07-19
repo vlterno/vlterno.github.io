@@ -64,6 +64,7 @@ html, body {
 
 .square-simp {
 	color: white;
+	font-size: 1.2em;
 	height: 100%;
 	display: flex;
     justify-content: center;
@@ -73,43 +74,43 @@ html, body {
 
 .square-1 {
 	background-color: rgba(245, 229, 66, 0.9);
-	box-shadow: 0.4em 0.4em 55px rgba(0, 0, 0, 0.5);
-	z-index: 8;
+	/*box-shadow: 0.4em 0.4em 55px rgba(0, 0, 0, 0.5);*/
+	/*z-index: 8;*/
     position: relative;
 }
 
 .square-2 {
 	background-color: rgb(244,160,98);
-	box-shadow: 0.4em 0.4em 55px rgba(0, 0, 0, 0.5);
-	z-index: 10;
+	/*box-shadow: 0.4em 0.4em 55px rgba(0, 0, 0, 0.5);*/
+	/*z-index: 10;*/
     position: relative;
 }
 
 .square-3 {
 	background-color: rgb(117,98,165);
-	box-shadow: 0.4em 0.4em 55px rgba(0, 0, 0, 0.5);
-	z-index: 6;
+	/*box-shadow: 0.4em 0.4em 55px rgba(0, 0, 0, 0.5);*/
+	/*z-index: 6;*/
     position: relative;
 }
 
 .square-4 {
 	height: 100%;
-    box-shadow: inset 10px 1px 10px rgba(170, 170, 170, 0.5);
+    /*box-shadow: inset 10px 1px 10px rgba(170, 170, 170, 0.5);*/
     font-family: 'Bad Script', cursive;
     font-size: 25px;
 }
 
 .square-5 {
 	background-color: rgb(230,89,154);
-	box-shadow: 0.4em 0.4em 55px rgba(0, 0, 0, 0.5);
-	z-index: 10;
+	/*box-shadow: 0.4em 0.4em 55px rgba(0, 0, 0, 0.5);*/
+	/*z-index: 10;*/
     position: relative;
 }
 
 .square-6 {
 	background-color: rgb(127,192,126);
-	box-shadow: 0.4em 0.4em 55px rgba(0, 0, 0, 0.5);
-	z-index: 8;
+	/*box-shadow: 0.4em 0.4em 55px rgba(0, 0, 0, 0.5);*/
+	/*z-index: 8;*/
     position: relative;
 }
 
@@ -117,7 +118,7 @@ html, body {
 .square-3:hover, .square-3:focus, .square-5:hover, .square-5:focus, 
 .square-6:hover, .square-6:focus {
 	z-index: 1000;
-	box-shadow: 0.4em 0.4em 65px rgba(0, 0, 0, 0.5);
+	box-shadow: 0.4em 0.4em 45px rgba(0, 0, 0, 0.5);
 }
 /*............................................................................*/
 /*CONTENT*/
@@ -185,3 +186,42 @@ html, body {
 	margin-right: 20%;
 	margin-top: 15%;
 }
+
+.job {
+    margin-bottom: 0.7rem;
+}
+
+.name {
+	font-size: 1.4em;
+}
+
+.post {
+	font-size: 1.2em;
+}
+
+.duration {
+	font-size: 1em;
+	color: grey;
+}
+
+.job_title_1 {
+	font-size: 1.2em;
+	margin-top: 2rem;
+}
+
+.job_title_2 {
+	margin-bottom: 0.7rem;
+}
+
+.job_content {
+	padding-bottom: 15px;
+}
+
+.job_logo_sm {
+	max-width: 40%;
+ 	box-sizing: border-box;
+}
+
+.job_logo {
+  max-width: 95%;
+  box-sizing: border-box; }
