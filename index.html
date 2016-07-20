@@ -19,34 +19,79 @@
 </head>
 <body>
 	<div class="page-1">
-		<div class="square-box">
-			<div class="main-row">
-				<div class="half main-columns square-1 square-simp">
-					<p>Обо мне</p>
+		<div class="container">
+			<div class="square-box">
+				<div class="main-row">
+					<div class="half main-columns square-1 square-simp card effect__click">
+						<div class="card__front">
+							<span class="card__text_1">Обо мне</span>
+						</div>
+						<div class="card__back">
+							<div class="card__text_2">
+								<p>Я выпускник МГТУ им. Баумана.</p>
+								<p>Специальность: инженер-метролог, инженер-конструктор.</p>
+							</div>
+						</div>
+					</div>
+					<div class="half main-columns square-2 square-simp card effect__click">
+						<div class="card__front">
+							<span class="card__text_1">Ссылки</span>
+						</div>
+						<div class="card__back">
+							<div class="card__text_2">
+								<p>Ссылки на социальные сети:</p>
+								<li><a target="_blank" href="https://www.facebook.com/vlterno">facebook</a></li>
+								<li><a target="_blank" href="https://www.linkedin.com/in/%D0%B2%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80-%D1%82%D0%B5%D1%80%D0%BD%D0%BE%D0%B2%D1%8B%D1%85-59a10a124?trk=hp-identity-photo">linkedin</a></li>
+							</div>
+						</div>
+					</div>
 				</div>
-				<div class="half main-columns square-2 square-simp">
-					<p>Портфолио</p>
+				<div class="main-row">
+					<div class="half main-columns square-3 square-simp card effect__click">
+						<div class="card__front">
+							<span class="card__text_1">Что я умею</span>
+						</div>
+						<div class="card__back">
+							<div class="card__text_2">
+								<p>Увлекаюсь проектированием и моделированием. Умею оформлять документацию в соответствии с ЕСКД и ЕСТД. Знаю основы методов измерений и контроля.</p>
+								<p>Также увлекаюсь созданием сайтов. Изучаю языки программирования JavaScript и Python.</p>
+								<p></p>
+							</div>
+						</div>
+					</div>
+					<div class="half main-columns square-4">
+						<br><p>Меня зовут Владимир</p>
+						<p>Я инженер</p>
+					</div>
 				</div>
+				<div class="main-row">
+					<div class="half main-columns square-5 square-simp card effect__click">
+						<div class="card__front">
+							<span class="card__text_1">Опыт работы</span>
+						</div>
+						<div class="card__back">
+							<div class="card__text_2">
+								<p>Имею опыт работы в телекоммуникационной компании ООО"Телум", являющейся резидентом проекта "Сколково".</p>
+								<p>Должность: младший инженер</p>
+								<p class="job duration">июль 2015 - июнь 2016 (1 год)</p>
+							</div>
+						</div>
+					</div>
+					<div class="half main-columns square-6 square-simp card effect__click">
+						<div class="card__front">
+							<span class="card__text_1">Контакты</span>
+						</div>
+						<div class="card__back">
+							<div class="card__text_2">
+								<p>Контактные данные:</p>
+								<p>тел.: +7 (915) 337-88-50</p>
+								<p>e-mail: <a href="mailto:vlterno@gmail.com">vlterno@gmail.com</a></p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a class="main-button-space"></a>
 			</div>
-			<div class="main-row">
-				<div class="half main-columns square-3 square-simp">
-					<p>Что я умею</p>
-				</div>
-				<div class="half main-columns square-4">
-					<br><p>Меня зовут Владимир</p>
-					<p>Я инженер</p>
-				</div>
-			</div>
-			<div class="main-row">
-				<div class="half main-columns square-5 square-simp">
-					<p>Опыт работы</p>
-				</div>
-				<div class="half main-columns square-6 square-simp">
-					<p>Контакты</p>
-				</div>
-			</div>
-			<a class="main-button-space">
-			</a>
 		</div>
 	</div>
 
@@ -176,6 +221,23 @@
 		$(".main-button-space").click(function(){scroll_to(".page-2");})
 		// $(".square-1").click(function(){scroll_to(".first-content");})
 		// $(".square-3").click(function(){scroll_to(".second-content");})
+	</script>
+
+	<script type="text/javascript">
+		(function() {
+			var cards = document.querySelectorAll(".card.effect__click");
+			for ( var i  = 0, len = cards.length; i < len; i++ ) {
+				var card = cards[i];
+				clickListener( card );
+			}
+
+			function clickListener(card) {
+				card.addEventListener( "click", function() {
+					var c = this.classList;
+					c.contains("flipped") === true ? c.remove("flipped") : c.add("flipped");
+				});
+			}
+		})();
 	</script>
 
 </body>
