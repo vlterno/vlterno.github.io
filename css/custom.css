@@ -51,7 +51,10 @@ html, body {
 	min-width: 100%;
 	min-height: 100%;
 	background-color: #f6f6f6;
-	font-family: 'PT Sans', sans-serif;
+	/*background-color: #fafafa;*/
+	/*font-family: 'PT Sans', sans-serif;*/
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
 }
 
 /*CARD effect*/
@@ -67,12 +70,14 @@ html, body {
 
 .card__text_1 {
 	color: white;
-	font-size: 1em;
+	font-size: 1.1em;
 	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	font-family: 'PT Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-variant: small-caps;
 }
 
 .card__text_2 {
@@ -95,7 +100,7 @@ html, body {
 .card__front {}
 
 .card__back {
-	    border: 1px solid #c9c9c9;
+	border: 1px solid #c9c9c9;
 	text-align: left;
 	color: black;
 	background-color: #f6f6f6;
@@ -193,10 +198,10 @@ html, body {
 	padding-top: 40px;
 }
 
-.mt1 {color: #7562a5;}
+/*.mt1 {color: #7562a5;}
 .mt2 {color: #f4a062;}
 .mt3 {color: #e6599a;}
-.mt4 {color: #7fc07e;}
+.mt4 {color: #7fc07e;}*/
 
 .image-r {
 	width: 200px;
