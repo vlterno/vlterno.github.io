@@ -50,7 +50,7 @@ html, body {
 .page-2 {
 	min-width: 100%;
 	min-height: 100%;
-	background-color: #f6f6f6;
+	background-color: #fafafa;
 	/*background-color: #fafafa;*/
 	/*font-family: 'PT Sans', sans-serif;*/
 	font-family: 'Roboto', sans-serif;
@@ -59,7 +59,7 @@ html, body {
 
 /*CARD effect*/
 /*...........................................................................*/
-.card__front,
+/*.card__front,
 .card__back {
 	position: absolute;
 	top: 0;
@@ -116,11 +116,11 @@ html, body {
 .card.effect__click.flipped .card__back {
 	-webkit-transform: rotateY(0);
 	transform: rotateY(0);
-}
+}*/
 
 /*SQUARES 'div'
 .......................................................................*/
-.square-box {
+/*.square-box {
 	text-align: center;
 	height: 100%;
 }
@@ -147,7 +147,6 @@ html, body {
 
 .square-4 {
 	height: 100%;
-	/*box-shadow: inset 10px 1px 10px rgba(170, 170, 170, 0.5);*/
 	font-family: 'Bad Script', cursive;
 	font-size: 25px;
 }
@@ -165,7 +164,7 @@ html, body {
 .card__front:hover, .card__front:focus{
 	z-index: 1000;
 	box-shadow: 0.4em 0.4em 45px rgba(0, 0, 0, 0.5);
-}
+}*/
 /*............................................................................*/
 /*CONTENT*/
 .first-content {
@@ -183,25 +182,34 @@ html, body {
 .second-content {
 	padding-left: 4%;
 	padding-right: 4%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #676767;
+    font-weight: 400;
 }
 
-.content {
-	padding-bottom: 30px;
+.content-left {
+	padding-left: 20%;
+	padding-top: 2%;
+}
+
+.content-right {
+	padding-right: 20%;
+	padding-top: 5%;
 }
 
 .tit {
 	text-align: center;
+	color: #333333;
+	padding-bottom: 20px;
 }
 
 .mini-tit {
 	display: block;
 	padding-top: 40px;
+	font-weight: 500;
+    color: #3e3e3e;
 }
-
-/*.mt1 {color: #7562a5;}
-.mt2 {color: #f4a062;}
-.mt3 {color: #e6599a;}
-.mt4 {color: #7fc07e;}*/
 
 .image-r {
 	width: 200px;
@@ -235,6 +243,8 @@ html, body {
 
 .job {
 	margin-bottom: 0.7rem;
+	color: #353535;
+	font-weight: 600;
 }
 
 .name {
@@ -253,10 +263,14 @@ html, body {
 .job_title_1 {
 	font-size: 1.2em;
 	margin-top: 2rem;
+	color: #353535;
+	font-weight: 600;
 }
 
 .job_title_2 {
 	margin-bottom: 0.7rem;
+	color: #353535;
+	font-weight: 600;
 }
 
 .job_content {
