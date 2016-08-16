@@ -22,12 +22,13 @@ html, body {
 	font-weight: 300;
 }
 
-/*Main content*/
+/*Main content
+......................................................................*/
 
 .main-cont {
- 	padding-left: 5%;
-    padding-top: 15%;
-    font-size: large;
+	padding-left: 5%;
+	padding-top: 15%;
+	font-size: large;
 /*  position: absolute;
     margin: auto 0;
     left: 10%;
@@ -42,9 +43,9 @@ html, body {
 .main-p {
 	font-size: xx-large;
 }
-    
+
 .main-img {
-	padding-top: 40%;
+	padding-top: 30%;
 /*	position: absolute;
     bottom: 0;
     right: 0;
@@ -52,16 +53,16 @@ html, body {
 }
 
 .row-but {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-top: 10%;
 }
 
 .but-div {
 	font-size: large;
-    width: 200px;
-    text-align: center;
+	width: 200px;
+	text-align: center;
 }
 
 .but-p {
@@ -83,39 +84,39 @@ html, body {
 	width: 200px;
 	margin: auto;
 	display: block;
-}*/
+	}*/
 
-.second-content {
-	padding-left: 4%;
-	padding-right: 4%;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	color: #676767;
-    font-weight: 400;
-}
+	.second-content {
+		padding-left: 4%;
+		padding-right: 4%;
+		padding-top: 50px;
+		padding-bottom: 50px;
+		color: #676767;
+		font-weight: 400;
+	}
 
-.content-left {
-	padding-left: 20%;
-	padding-top: 2%;
-}
+	.content-left {
+		padding-left: 20%;
+		padding-top: 2%;
+	}
 
-.content-right {
-	padding-right: 20%;
-	padding-top: 5%;
-}
+	.content-right {
+		padding-right: 20%;
+		padding-top: 5%;
+	}
 
-.tit {
-	text-align: center;
-	color: #333333;
-	padding-bottom: 20px;
-}
+	.tit {
+		text-align: center;
+		color: #333333;
+		padding-bottom: 20px;
+	}
 
-.mini-tit {
-	display: block;
-	padding-top: 40px;
-	font-weight: 500;
-    color: #3e3e3e;
-}
+	.mini-tit {
+		display: block;
+		padding-top: 40px;
+		font-weight: 500;
+		color: #3e3e3e;
+	}
 
 /*Job_content
 ..................................................................*/
@@ -166,4 +167,20 @@ html, body {
 	box-sizing: border-box;
 }
 
-/*...............................................................*/
+/*MOBILE
+...............................................................*/
+@media (max-width: 550px) {
+	.main-img {padding-top: 0px;}
+	.page-2 {display: none;}
+	.page-2-mobile {
+		min-width: 100%;
+		min-height: 100%;
+		background-color: #fafafa;
+		font-family: 'Roboto', sans-serif;
+		font-weight: 300;
+	}
+}
+
+.img-mob {
+	text-align: center;
+}
