@@ -78,45 +78,37 @@ html, body {
 	padding-top: 10px;
 }
 
-/*.image-cl {
-	border: 2px solid #cbcbcb;
-	border-radius: 100px;
-	width: 200px;
-	margin: auto;
+.second-content {
+	padding-left: 4%;
+	padding-right: 4%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	color: #444444;
+	font-weight: 300;
+}
+
+.content-left {
+	padding-left: 20%;
+	padding-top: 2%;
+}
+
+.content-right {
+	padding-right: 20%;
+	padding-top: 5%;
+}
+
+.tit {
+	text-align: center;
+	color: #333333;
+	padding-bottom: 20px;
+}
+
+.mini-tit {
 	display: block;
-	}*/
-
-	.second-content {
-		padding-left: 4%;
-		padding-right: 4%;
-		padding-top: 50px;
-		padding-bottom: 50px;
-		color: #676767;
-		font-weight: 400;
-	}
-
-	.content-left {
-		padding-left: 20%;
-		padding-top: 2%;
-	}
-
-	.content-right {
-		padding-right: 20%;
-		padding-top: 5%;
-	}
-
-	.tit {
-		text-align: center;
-		color: #333333;
-		padding-bottom: 20px;
-	}
-
-	.mini-tit {
-		display: block;
-		padding-top: 40px;
-		font-weight: 500;
-		color: #3e3e3e;
-	}
+	padding-top: 40px;
+	font-weight: 500;
+	color: #3e3e3e;
+}
 
 /*Job_content
 ..................................................................*/
@@ -124,7 +116,7 @@ html, body {
 .job {
 	margin-bottom: 0.7rem;
 	color: #353535;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .name {
@@ -137,24 +129,26 @@ html, body {
 
 .duration {
 	font-size: 1em;
-	color: grey;
+	color: #7f7786;
 }
 
 .job_title_1 {
 	font-size: 1.2em;
 	margin-top: 2rem;
 	color: #353535;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .job_title_2 {
 	margin-bottom: 0.7rem;
 	color: #353535;
-	font-weight: 600;
+	font-weight: 500;
 }
 
 .job_content {
 	padding-bottom: 15px;
+	font-weight: 300;
+	color: #0a0a0a;
 }
 
 .job_logo_sm {
@@ -183,4 +177,8 @@ html, body {
 
 .img-mob {
 	text-align: center;
+}
+
+.page-2-mobile {
+	display: none;
 }
