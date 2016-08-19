@@ -17,13 +17,23 @@
 
 <body>
 	<div class="page-1">
-		<div class="container">
+		<div class="container main-cont">
 			<div class="row">
-				<div class="six col main-cont">
+				<div class="small col">
+					<img class="utilite-full" src="https://pp.vk.me/c628618/v628618960/4c5f3/pzpQsZM-ohw.jpg" style="border-radius: 80px;">
+				</div>
+				<div class="eight col">
 					<h5 class="main-h">Привет!</h5>
 					<p class="main-p">Меня зовут Владимир Терновых.</p>
-					<p>Я инженер-конструктор, метролог, увлекаюсь моделированием, веб-дизайном и разработкой.</p>
-					<p>Выпусткник МГТУ им. Баумана по направлению "Метрология, стандартизация и сертификация".</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="six col main-sm-cont">
+					<li>я закончил МГТУ имени Баумана</li>
+					<li>инженер-конструктор, инженер-метролог</li>
+					<li>увлекаюсь веб- и 3D-разработкой</li>
+					<li>опыт работы</li>
+					<li>ответственный</li>
 					<div class="row-but">
 						<div class="but-div">
 							<p class="but-p">Подробнее</p>
@@ -47,10 +57,11 @@
 			</div>
 			<div class="row">
 				<div class="seven col content-left">
-					<h5 class="mini-tit">Моделирование</h5>
+					<h5 class="mini-tit">Моделировать</h5>
 					<li>CATIA</li>
 					<li>Autodesk Inventor, Fusion</li>
 					<li>Autodesk AutoCAD</li>
+					<li>3ds MAX</li>
 				</div>
 				<div class="five col img-l">
 					<img class="utilite-full img-size" src="img/111.png">
@@ -62,13 +73,14 @@
 				</div>
 				<div class="seven col content-right">
 					<h5 class="mini-tit">ЕСКД и ЕСТД</h5>
-					<p>Разработка и оформление конструкторской и технической документации. Метрологическая экспертиза чертежей.</p>
+					<li>Разработка и оформление КД и ТД</li>
+					<li>Метрологическая экспертиза чертежей</li>
 				</div>
 			</div>
 			<div class="row">
 				<div class="seven col content-left">
-					<h5 class="mini-tit">Программирование</h5>
-					<li>Python</li><li>HTML/CSS</li><li>JavaScript</li>
+					<h5 class="mini-tit">Программировать</h5>
+					<li>Python</li><li>HTML, CSS, JS</li><li>Bash, Perl</li>
 				</div>
 				<div class="five col img-l">
 					<img class="utilite-full img-size" src="img/444.png">
@@ -80,14 +92,16 @@
 				</div>
 				<div class="seven col content-right">
 					<h5 class="mini-tit">Веб-дизайн</h5>
-					<p>Cозданием сайтов. Использую Corel Draw, 3Ds MAX.</p>
+					<li>HTML, CSS, JS</li>
+					<li>Corel Draw</li>
+					<li>Adobe Animate CC</li>
 				</div>
 			</div>	
 		</div>
 	</div>
 
 	<!-- MOBILE PAGE 2 -->
-	<div class="page-2-mobile">
+<!-- 	<div class="page-2-mobile">
 		<div class="container second-content">
 			<hr>
 			<div class="row">
@@ -134,7 +148,7 @@
 				</div>
 			</div>	
 		</div>
-	</div>	
+	</div>	 -->
 
 	<div class="page-3">
 		<div class="container second-content">
@@ -161,7 +175,7 @@
 			</div>
 			<div class="row">
 				<div class="six col job_content">
-					<p class="job_title_2">Robobench (ПАК для стендового тестирования базовых станций LTE)</p>
+					<p class="job_title_2">Robobench (ПАК для тестирования базовых станций LTE)</p>
 					<li>проектирование и прототипирование, сборка образца</li>
 					<li>выбор и закупка механических и корпусных элементов</li>
 					<li>оформление КД для серийного производства</li>
@@ -180,28 +194,41 @@
 		</div>
 	</div>
 
-	<div class="item-center" style="position: relative; background-color: #ededed;">
-		<p>lalal</p>
-		<video width="70%" autoplay loop style="position: static;">
-			<source src="rob_vid.mp4" type="video/mp4">
-				Your browser does not support the video tag.
-		</video>
-		<p>lalal</p>
+	<div class="page-4">
+		<div class="container second-content">
+			<div class="row">
+				<div class="twelve col tit">
+					<h4>Несколько моих работ</h4>
+				</div>
+			</div>
+			<div class="row">
+				<li><h5>Модель Robobench</h5></li>
+			</div>
+			<div class="item-center">
+				<video width="100%" autoplay loop">
+					<source src="rob_vid.mp4" type="video/mp4">
+						Your browser does not support the video tag.
+				</video>
+			</div>
+			<div class="row">
+				<li><h5>Несколько сайтов</h5></li>
+			</div>
+		</div>
 	</div>
 
 	<!-- End Document
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
-<!-- 
+
 	<script type="text/javascript">
 		var scroll_to = function(elem) {
 			$('html, body').animate({ scrollTop: $(elem).offset().top }, 1000);
 		}
-		$(".main-button-space").click(function(){scroll_to(".page-2");})
+		$(".but-div").click(function(){scroll_to(".page-2");})
 		// $(".square-1").click(function(){scroll_to(".first-content");})
 		// $(".square-3").click(function(){scroll_to(".second-content");})
 	</script>
 
-	<script type="text/javascript">
+<!-- 	<script type="text/javascript">
 		(function() {
 			var cards = document.querySelectorAll(".card.effect__click");
 			for ( var i  = 0, len = cards.length; i < len; i++ ) {

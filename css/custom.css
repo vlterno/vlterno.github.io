@@ -22,41 +22,28 @@ html, body {
 	font-weight: 300;
 }
 
+.page-3 {
+	background-color: white;
+}
+
 /*Main content
 ......................................................................*/
 
 .main-cont {
 	padding-left: 5%;
-	padding-top: 15%;
+	padding-top: 12%;
 	font-size: large;
-/*  position: absolute;
-    margin: auto 0;
-    left: 10%;
-    top: 25%;
-    z-index: 1;*/
 }
 
-.main-h {
-	font-size: -webkit-xxx-large;
-}
-
-.main-p {
-	font-size: xx-large;
-}
-
-.main-img {
-	padding-top: 30%;
-/*	position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 50%;*/
-}
-
+.main-h {font-size: -webkit-xxx-large;}
+.main-p {font-size: xx-large;}
+.small.col {width: 15%;}
+.main-sm-cont {padding-top: 50px;}
 .row-but {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	padding-top: 10%;
+	padding-top: 20%;
 }
 
 .but-div {
@@ -70,6 +57,11 @@ html, body {
 	border-radius: 1px;
 }
 
+.but-p:hover {
+    background-color: #908ee2;
+    color: white;
+    border-color: white;
+}
 
 /*....................................................................*/
 /*CONTENT*/
@@ -84,17 +76,10 @@ html, body {
 	padding-top: 50px;
 	padding-bottom: 50px;
 	color: #444444;
-	font-weight: 300;
 }
 
-.content-left {
-	padding-left: 25%;
-}
-
-.content-right {
-	padding-right: 21%;
-	padding-top: 2%;
-}
+.content-left {padding-left: 25%;}
+.content-right {padding-right: 21%;}
 
 .tit {
 	text-align: center;
@@ -104,18 +89,17 @@ html, body {
 
 .mini-tit {
 	display: block;
-	padding-top: 40px;
+	padding-top: 30px;
 	font-weight: 500;
 	color: #3e3e3e;
 }
 
 .img-size {
-	max-width: 250px;
-	max-height: 250px;
+	max-width: 200px;
+	max-height: 200px;
 }
 
 .img-l {text-align: left;}
-
 .img-r {text-align: right;}
 
 /*Job_content
@@ -127,13 +111,9 @@ html, body {
 	font-weight: 500;
 }
 
-.name {
-	font-size: 1.4em;
-}
+.name {font-size: 1.4em;}
 
-.post {
-	font-size: 1.2em;
-}
+.post {font-size: 1.2em;}
 
 .duration {
 	font-size: 1em;
@@ -169,9 +149,15 @@ html, body {
 	box-sizing: border-box;
 }
 
+/*PAGE 4
+...............................................................*/
+.page-4 {
+	background-color: #ededed;
+}
+
 /*MOBILE
 ...............................................................*/
-.page-2-mobile {
+/*.page-2-mobile {
 	display: none;
 }
 
@@ -205,6 +191,6 @@ html, body {
 	.row-but {padding-top: 2%;}
 	.tit {padding-top: 0px;}
 	.mini-tit {padding-top: 0px;}
-}
+}*/
 
 
