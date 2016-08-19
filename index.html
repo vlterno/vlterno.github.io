@@ -205,16 +205,16 @@
 				<li><h5>Модель Robobench</h5></li>
 			</div>
 			<div class="item-center">
-				<video width="100%" autoplay loop">
+				<video width="100%" autoplay loop id="vid">
 					<source src="rob_vid.mp4" type="video/mp4">
 						Your browser does not support the video tag.
-				</video>
-			</div>
-			<div class="row">
-				<li><h5>Несколько сайтов</h5></li>
+					</video>
+				</div>
+				<div class="row">
+					<li><h5>Несколько сайтов</h5></li>
+				</div>
 			</div>
 		</div>
-	</div>
 
 	<!-- End Document
 	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -226,6 +226,13 @@
 		$(".but-div").click(function(){scroll_to(".page-2");})
 		// $(".square-1").click(function(){scroll_to(".first-content");})
 		// $(".square-3").click(function(){scroll_to(".second-content");})
+	</script>
+
+	<script type="text/javascript">
+		var $video = $('#vid');
+		$video.on('canplaythrough', function() {
+			this.play();
+		});
 	</script>
 
 <!-- 	<script type="text/javascript">
