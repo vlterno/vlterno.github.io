@@ -3,6 +3,11 @@ html, body {
 	width: 100%;
 	margin: 0;
 }
+#owl-demo .item img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 
 /*Pages
 ......................................................................*/
@@ -24,6 +29,11 @@ html, body {
 
 .page-3 {
 	background-color: white;
+	font-weight: 300;
+}
+
+.page-4 {
+	background-color: #ededed;
 	font-weight: 300;
 }
 
@@ -152,9 +162,12 @@ html, body {
 
 /*PAGE 4
 ...............................................................*/
-.page-4 {
-	background-color: #ededed;
-	font-weight: 300;
+.sites {
+	padding-top: 100px;
+}
+
+.content-sites {
+	text-align: center;
 }
 
 /*MOBILE

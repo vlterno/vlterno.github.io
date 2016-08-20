@@ -6,8 +6,6 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Bad+Script&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100,500,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="css/base.css">
 	<link rel="stylesheet" href="css/custom.css">
@@ -162,28 +160,61 @@
 				<li>подготовка демонстрационных материалов, моделирование и визуализация</li>
 				<li>подготовка пользовательской документации</li>
 			</div>
-			<div class="item-center">
-				<video width="100%" autoplay loop id="vid">
-					<source src="rob_vid.mp4" type="video/mp4">
+			<div class="row">
+				<div class="item-center">
+					<video width="100%" autoplay loop id="vid">
+						<source src="vid/rob_vid.mp4" type="video/mp4" />
 						Your browser does not support the video tag.
 					</video>
 				</div>
+			</div>
+			<div class="row sites">
+				<h5>Мои сайты</h5>
 				<div class="row">
-					<h5>Несколько сайтов</h5>
+					<div class="four col">
+						<img class="utilite-full img-1" src="img/pok.png">
+					</div>
+					<div class="four col">
+						<img class="utilite-full" src="img/thi.png">
+					</div>
+					<div class="four col">
+						<img class="utilite-full" src="img/sks.png">
+					</div>
 				</div>
+				<div class="row content-sites">
+					<div class="four col">
+						<p><a target="blank" href="https://pokem.io/">pokem.io</a></p>
+					</div>
+					<div class="four col">
+						<p><a target="blank" href="https://vlterno.github.io/thingstatus.com/">thingstatus.com</a></p>
+					</div>
+					<div class="four col">
+						<p><a target="blank" href="http://sk-style.ml/">sk-style.ml</a></p>
+					</div>
+				</div>
+<!-- 				<p><a href="https://pokem.io/">pokem.io</a><br>Сайт поклонников игры Pokemon GO</p>
+				<p><a href="https://vlterno.github.io/thingstatus.com/">thingstatus.com</a><br>Сайт-шутка =)</p>
+				<p><a href="http://sk-style.ml/">sk-style.ml</a><br>Салон красоты "Твой Стиль"</p> -->
 			</div>
 		</div>
-
-	<!-- End Document
-	–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+	</div>
+	<script type="text/javascript">
+		 $(".img-1")
+        .mouseover(function() { 
+            var src = $(this).attr("src").match(/[^\.]+/) + "over.png";
+            $(this).attr("src", src);
+        })
+        .mouseout(function() {
+            var src = $(this).attr("src").replace("over.png", ".png");
+            $(this).attr("src", src);
+        });
+	</script>
 
 	<script type="text/javascript">
 		var scroll_to = function(elem) {
 			$('html, body').animate({ scrollTop: $(elem).offset().top }, 1000);
 		}
 		$(".but-div").click(function(){scroll_to(".page-2");})
-		// $(".square-1").click(function(){scroll_to(".first-content");})
-		// $(".square-3").click(function(){scroll_to(".second-content");})
 	</script>
 
 	<script type="text/javascript">
@@ -192,23 +223,6 @@
 			this.play();
 		});
 	</script>
-
-<!-- 	<script type="text/javascript">
-		(function() {
-			var cards = document.querySelectorAll(".card.effect__click");
-			for ( var i  = 0, len = cards.length; i < len; i++ ) {
-				var card = cards[i];
-				clickListener( card );
-			}
-
-			function clickListener(card) {
-				card.addEventListener( "click", function() {
-					var c = this.classList;
-					c.contains("flipped") === true ? c.remove("flipped") : c.add("flipped");
-				});
-			}
-		})();
-	</script> -->
 
 </body>
 </html>
