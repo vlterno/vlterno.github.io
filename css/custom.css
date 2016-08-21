@@ -184,7 +184,7 @@ html, body {
 	.wrapper {display: table;}
 	.content-left {display: table-footer-group; text-align: left; padding-left: 0;}
 	.content-right {padding-right: 0;}
-
 	.img-l {display: table-header-group; float: none; text-align: center;}
 	.img-r {text-align: left;}
+	.sites {padding-top: 0;}
 }
