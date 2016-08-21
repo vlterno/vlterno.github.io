@@ -173,16 +173,16 @@ html, body {
 /*MOBILE
 ...............................................................*/
 @media (max-width: 550px) {
-	.main-img {padding-top: 0px;}
 	.job_logo {max-width: 70%;}
 	.job_logo_sm {max-width: 35%;}
 	.main-cont {padding-top: 3%; font-size: 1em;}
 	.main-p {font-size: 1.4em;}
 	.main-h {font-size: 2em;}
 	.row-but {padding-top: 2%;}
-	.tit {padding-top: 0px;}
+	.tit {padding-top: 0px; padding-bottom: 0px;}
 	.mini-tit {padding-top: 0px;}
 	.wrapper {display: table;}
-	.content-left {display: table-footer-group;}
-	.img-l {display: table-header-group; float: none;}
+	.content-left {display: table-footer-group; text-align: left; padding-left: 0;}
+	.img-l {display: table-header-group; float: none; text-align: center;}
+	.img-r {text-align: center;}
 }
