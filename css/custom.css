@@ -99,10 +99,14 @@ html, body {
 	max-height: 150px;
 }
 
-.img-l {text-align: right;}
-.img-1 {max-width: 80%; border-radius: 2px;}
-.wrapper {padding-bottom: 25px;}
+.img-1 {
+	max-width: 80%;
+	border-radius: 2px;
+	border: 1px solid #dadada;
+}
 
+.img-l {text-align: right;}
+.wrapper {padding-bottom: 25px;}
 .contacts {font-size: 1.8rem;}
 .foot {text-align: center;}
 
