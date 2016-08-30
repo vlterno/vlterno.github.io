@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/custom.css">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
@@ -150,7 +151,7 @@
 			</div>
 			<div class="row">
 				<div class="item-center">
-					<video width="100%" autoplay loop id="vid">
+					<video width="100%" id="myvid">
 						<source src="vid/rob_vid.mp4" type="video/mp4" />
 						Your browser does not support the video tag.
 					</video>
@@ -228,11 +229,26 @@
 				</div>
 			</div>
 			<div class="row foot">
-			<hr>
+				<hr>
 				<small>designed by <a href="mailto:vlterno@gmail.com">vlterno@gmail.com</a>, 2016</small>
 			</div>
 		</div>
 	</div>
+
+	<script type="text/javascript">
+		var vid = document.getElementById('myvid');
+		vid.pause();
+		var intervalID = window.setInterval(myCallback, 1000);
+			function myCallback() {
+				window.onscroll = function(){
+		 			if ((window.pageYOffset > 1190) && (window.pageYOffset < 1600)){
+		 			vid.play();
+		 			} else {
+		 			vid.pause();
+					};
+				};
+			}
+	</script>
 <!-- 
 	<script type="text/javascript">
 		var scroll_to = function(elem) {
