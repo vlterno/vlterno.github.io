@@ -11,7 +11,7 @@
 	<link rel="stylesheet" href="css/custom.css">
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 	<script src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js" integrity="sha256-xNjb53/rY+WmG+4L6tTl9m6PpqknWZvRt0rO1SRnJzw=" crossorigin="anonymous"></script>
-
+	<script src="https://use.fontawesome.com/12100a7f0e.js"></script>
 </head>
 
 <body>
@@ -219,10 +219,38 @@
 			</div>
 			<div class="row">
 				<div class="eight col contacts">
-					<p>Linkedin: <a href="https://www.linkedin.com/profile/preview?vpa=pub&locale=ru_RU">ссылка</a></p>
-					<p>Телефон: +7 (915) 337-88-50</p>
-					<p>Telegram: <a href="https://telegram.me/vlterno">@vlterno</a></p>
-					<p>E-mail: <a href="mailto:vlterno@gmail.com">vlterno@gmail.com</a></p>
+					<div class="row">
+						<div class="one col contact-icon">
+							<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+						</div>
+						<div class="eight col contact-text">
+							<a target="blank" href="https://www.linkedin.com/in/vlterno">Linkedin</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="one col contact-icon">
+							<i class="fa fa-envelope" aria-hidden="true"></i>
+						</div>
+						<div class="eight col contact-text">
+							<a href="mailto:vlterno@gmail.com">vlterno@gmail.com</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="one col contact-icon">
+							<i class="fa fa-paper-plane" aria-hidden="true"></i>
+						</div>
+						<div class="eight col contact-text">
+							<a href="https://telegram.me/vlterno">@vlterno</a>
+						</div>
+					</div>
+					<div class="row">
+						<div class="one col contact-icon">
+							<i class="fa fa-phone-square" aria-hidden="true"></i>
+						</div>
+						<div class="eight col contact-text">
+							<p>+7 (915) 337-88-50</p>
+						</div>
+					</div>								
 				</div>
 				<div class="four col">
 					<img class="utilite-full" src="img/animation_house.gif">
@@ -241,7 +269,7 @@
 		var intervalID = window.setInterval(myCallback, 1000);
 			function myCallback() {
 				window.onscroll = function(){
-		 			if ((window.pageYOffset > 1190) && (window.pageYOffset < 1600)){
+		 			if ((window.pageYOffset > 1000) && (window.pageYOffset < 1600)){
 		 			vid.play();
 		 			} else {
 		 			vid.pause();

@@ -107,9 +107,11 @@ html, body {
 
 .img-l {text-align: right;}
 .wrapper {padding-bottom: 25px;}
-.contacts {font-size: 1.8rem;}
+.contacts {font-size: 1.5rem;}
 .foot {text-align: center;}
 
+.contact-text {line-height: 2.8em;}
+.contact-icon {font-size: 2em; color: #1eaedb;}
 
 /*MOBILE
 ...............................................................*/
