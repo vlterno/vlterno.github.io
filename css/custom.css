@@ -9,7 +9,6 @@ html, body {
 ......................................................................*/
 .page-1 {
 	background-color: #ffffff;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	padding-top: 50px;
 	padding-bottom: 25px;
@@ -17,7 +16,6 @@ html, body {
 
 .page-2 {
 	background-color: #fafafa;
-	font-family: 'Roboto', sans-serif;
 	font-weight: 300;
 	padding-top: 25px;
 	padding-bottom: 20px;
@@ -52,6 +50,15 @@ html, body {
 }
 
 /*....................................................................*/
+.photo-col {
+	text-align: center;
+}
+
+.photo {
+	border-radius: 80px; 
+	width: 140px;
+}
+
 .tit {
 	text-align: center;
 	color: #333333;
@@ -60,7 +67,7 @@ html, body {
 .mini-tit {
 	display: block;
 	padding-top: 20px;
-	font-weight: 400;
+	font-weight: 300;
 	color: #3e3e3e;
 }
 
@@ -125,4 +132,6 @@ html, body {
 	.content-right {padding-right: 0;}
 	.img-l {display: table-header-group; float: none; text-align: center;}
 	.img-mob {text-align: center;}
+	.contact-icon {width: 13.3333333333%;}
+	.contact-text {width: 82.6666666667%;}
 }

@@ -117,18 +117,18 @@ hr {
   .container {width: 80%;}
   .col {margin-left: 4%;}
   .col:first-child {margin-left: 0;}
-  .one.col { width: 4.66666666667%;}
-  .two.col { width: 13.3333333333%;}
-  .three.col { width: 22%;}
-  .four.col { width: 30.6666666667%;}
-  .five.col { width: 39.3333333333%;}
-  .six.col { width: 48%;}
-  .seven.col { width: 56.6666666667%;}
-  .eight.col { width: 65.3333333333%;}
-  .nine.col { width: 74.0%;}
-  .ten.col { width: 82.6666666667%;}
-  .eleven.col { width: 91.3333333333%;}
-  .twelve.col { width: 100%; margin-left: 0;}
+  .one.col {width: 4.66666666667%;}
+  .two.col {width: 13.3333333333%;}
+  .three.col {width: 22%;}
+  .four.col {width: 30.6666666667%;}
+  .five.col {width: 39.3333333333%;}
+  .six.col {width: 48%;}
+  .seven.col {width: 56.6666666667%;}
+  .eight.col {width: 65.3333333333%;}
+  .nine.col {width: 74.0%;}
+  .ten.col {width: 82.6666666667%;}
+  .eleven.col {width: 91.3333333333%;}
+  .twelve.col {width: 100%; margin-left: 0;}
 }
 
 * {
