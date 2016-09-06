@@ -59,9 +59,19 @@ html, body {
 	width: 140px;
 }
 
-.phone-main {
-	font-size: 1.5em;
+.main-phone {
+	font-size: 1.2em;
+	margin-bottom: 0;
 	padding-top: 10px;
+}
+
+.main-mail {
+	font-size: 1.2em;
+	margin-bottom: 0;
+}
+
+.main-link {
+	text-decoration: none;
 }
 
 .tit {
@@ -119,7 +129,7 @@ html, body {
 
 .img-l {text-align: right;}
 .wrapper {padding-bottom: 25px;}
-.contacts {font-size: 1.5rem; font-size: 3em; letter-spacing: 0.15em; padding-top: 8%; padding-left: 10%;}
+.contacts {font-size: 1.5rem; font-size: 3em; letter-spacing: 0.2em; text-align: center;}
 .foot {text-align: center;}
 .phone {font-size: 0.55em; letter-spacing: normal;}
 
