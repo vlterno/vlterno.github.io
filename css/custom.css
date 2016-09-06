@@ -119,7 +119,7 @@ html, body {
 
 .img-l {text-align: right;}
 .wrapper {padding-bottom: 25px;}
-.contacts {font-size: 1.5rem; font-size: 3em; letter-spacing: 0.1em;}
+.contacts {font-size: 1.5rem; font-size: 3em; letter-spacing: 0.15em; padding-top: 8%; padding-left: 10%;}
 .foot {text-align: center;}
 .phone {font-size: 0.55em; letter-spacing: normal;}
 
@@ -137,5 +137,6 @@ html, body {
 	.img-mob {text-align: center;}
 	.contact-icon {width: 13.3333333333%;}
 	.contact-text {width: 82.6666666667%;}
-	.contacts {text-align: center;}
+	.contacts {text-align: center; letter-spacing: 0.1em; padding-top: 0%; padding-left: 0%;}
+	.phone {font-size: 0.5em}
 }
