@@ -29,10 +29,12 @@
 				</div>
 				<div class="six col">
 					<ul>
+						<li>мне 23 года</li>
 						<li>я закончил МГТУ имени Баумана</li>
 						<li>инженер-конструктор, инженер-метролог</li>
 						<li>увлекаюсь веб- и 3D-разработкой</li>
 						<li>работал в Ranberry (резидент Сколково)</li>
+						<p class="phone-main">тел. +7 (915) 337-88-50</p>
 					</ul>
 				</div>
 			</div>
@@ -233,47 +235,16 @@
 				</div>
 			</div>
 			<div class="row">
-				<div class="eight col contacts">
+				<div class="eight col">
 					<div class="row">
-						<div class="one col contact-icon">
-							<i class="fa fa-envelope" aria-hidden="true"></i>
-						</div>
-						<div class="ten col contact-text">
-							<a href="mailto:vlterno@gmail.com">vlterno@gmail.com</a>
+						<div class="twelve col contacts">
+							<a href="https://telegram.me/vlterno"><i class="fa fa-paper-plane" aria-hidden="true"></i></a>
+							<a href="mailto:vlterno@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
+							<a target="blank" href="https://github.com/vlterno"><i class="fa fa-github-square" aria-hidden="true"></i></a>
+							<a target="blank" href="https://www.linkedin.com/in/vlterno"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a>
+							<p class="phone">тел. +7 (915) 337-88-50</p>
 						</div>
 					</div>
-					<div class="row">
-						<div class="one col contact-icon">
-							<i class="fa fa-paper-plane" aria-hidden="true"></i>
-						</div>
-						<div class="eight col contact-text">
-							<a href="https://telegram.me/vlterno">@vlterno</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="one col contact-icon">
-							<i class="fa fa-github-square" aria-hidden="true"></i>
-						</div>
-						<div class="eight col contact-text">
-							<a target="blank" href="https://github.com/vlterno">github.com/vlterno</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="one col contact-icon">
-							<i class="fa fa-linkedin-square" aria-hidden="true"></i>
-						</div>
-						<div class="eight col contact-text">
-							<a target="blank" href="https://www.linkedin.com/in/vlterno">vlterno</a>
-						</div>
-					</div>
-					<div class="row">
-						<div class="one col contact-icon">
-							<i class="fa fa-phone-square" aria-hidden="true"></i>
-						</div>
-						<div class="eight col contact-text">
-							<p>+7 (915) 337-88-50</p>
-						</div>
-					</div>							
 				</div>
 				<div class="four col">
 					<img class="utilite-full" src="img/animation_house.gif">
@@ -290,15 +261,15 @@
 		var vid = document.getElementById('myvid');
 		vid.pause();
 		var intervalID = window.setInterval(myCallback, 1000);
-			function myCallback() {
-				window.onscroll = function(){
-		 			if ((window.pageYOffset > 1100) && (window.pageYOffset < 1600)){
-		 			vid.play();
-		 			} else {
-		 			vid.pause();
-					};
+		function myCallback() {
+			window.onscroll = function(){
+				if ((window.pageYOffset > 1100) && (window.pageYOffset < 1600)){
+					vid.play();
+				} else {
+					vid.pause();
 				};
-			}
+			};
+		}
 	</script>
 <!-- 
 	<script type="text/javascript">
