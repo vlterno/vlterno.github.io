@@ -60,13 +60,13 @@ html, body {
 }
 
 .main-phone {
-	font-size: 1.2em;
+/*	font-size: 1.2em;*/
 	margin-bottom: 0;
 	padding-top: 10px;
 }
 
 .main-mail {
-	font-size: 1.2em;
+/*	font-size: 1.2em;*/
 	margin-bottom: 0;
 }
 
@@ -90,6 +90,10 @@ html, body {
 	margin-bottom: 0.7rem;
 	color: #353535;
 	font-weight: 300;
+}
+
+.job_logo_2 {
+	max-width: 50%;
 }
 
 .name {font-size: 1.4em;}
