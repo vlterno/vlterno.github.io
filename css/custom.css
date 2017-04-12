@@ -29,10 +29,11 @@ html, body {
 }
 
 .page-4 {
-	background-color: #ededed;
+/*	background-color: #ededed;*/
+	background-color: #eeeeee;
 	font-weight: 300;
 	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-bottom: 0px;
 }
 
 .page-5 {
