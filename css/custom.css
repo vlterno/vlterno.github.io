@@ -136,6 +136,10 @@ html, body {
 .foot {text-align: center;}
 .phone {font-size: 0.55em; letter-spacing: normal;}
 
+.project {padding-top: 20px;}
+.project-2 {padding-bottom: 25px;}
+
+
 /*MOBILE
 ...............................................................*/
 @media (max-width: 550px) {
