@@ -62,7 +62,7 @@ html, body {
 
 .main-phone {
 	margin-bottom: 0;
-	padding-top: 10px;
+	padding-top: 15px;
 }
 
 .main-mail {
@@ -93,6 +93,9 @@ html, body {
 
 .job_logo_2 {
 	max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
 }
 
 .name {font-size: 1.4em;}
@@ -114,9 +117,26 @@ html, body {
 	box-sizing: border-box;
 }
 
+.job_logo_sm_mid {
+	max-width: 40%;
+	box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; 
+	padding-top: 3px;
+}
+
 .job_logo {
 	max-width: 95%;
 	box-sizing: border-box;
+}
+
+.job_logo_au {
+	max-width: 60%;
+	box-sizing: border-box;
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
 }
 
 .img-size {
