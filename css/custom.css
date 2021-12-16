@@ -10,47 +10,130 @@ html, body {
 .page-1 {
 	background-color: #ffffff;
 	font-weight: 300;
-	padding-top: 50px;
-	padding-bottom: 10px;
-}
-
-.page-2 {
-	background-color: #fafafa;
-	font-weight: 300;
-	padding-top: 25px;
-	padding-bottom: 20px;
-}
-
-.page-3 {
-	background-color: white;
-	font-weight: 300;
-	padding-top: 25px;
-	padding-bottom: 25px;
-}
-
-.page-4 {
-/*	background-color: #ededed;*/
-	background-color: #eeeeee;
-	font-weight: 300;
-	padding-top: 25px;
-	padding-bottom: 0px;
-}
-
-.page-5 {
-    background-color: #f5f5f5;
-    font-weight: 300;
-    padding-top: 25px;
-    padding-bottom: 25px;
-}
-
-.page-6 {
-	background-color: #fffffe;
-	font-weight: 300;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	padding-top: 5%;
 }
 
 /*....................................................................*/
+
+
+.main_tittle {
+	text-align: center;
+}
+
+.main_tittle h1 {
+	font-weight: 400;
+    /*background: -webkit-linear-gradient(15deg, #00d1cd, #1de949);*/
+    /*-webkit-background-clip: text;*/
+    /*-webkit-text-fill-color: transparent;*/
+}
+
+.sub_tittle {
+	text-align: center;
+	font-weight: 100;
+}
+
+.main-buttons {
+	text-align: center;
+	padding-left: 35%;
+	padding-right: 35%;
+}
+
+.main-buttons a {
+	color: #8c918e;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.main-buttons a:hover {
+	color: black;
+}
+
+.bottom {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	margin-top: 20px;
+	background-color: #28282a;
+	color: white;
+}
+
+.bottom a {
+	color: #8c918e;
+	text-decoration: none;
+	font-weight: 400;
+}
+
+.bottom a:hover {
+	color: white;
+}
+
+.bottom-row {
+	padding-top: 10px;
+}
+
+
+
+/*....................................................................*/
+
+.projects {
+	padding-top: 25px;
+}
+
+.projects-line-1 {
+	height: 150px;
+}
+
+.row-project {
+	margin-bottom: 3px;
+	position: relative;
+}
+
+.project-img {
+	width: 100%;
+    opacity: 1;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.project-text {
+	opacity: 0;
+    position: absolute;
+    transition: .5s ease;
+    top: 15%;
+    left: 10%;
+    transform: translate(-5%, -5%);
+    -ms-transform: translate(-5%, -5%);
+    text-align: center;
+    color: black;
+}
+
+.row-project:hover .project-text {
+	opacity: 1;
+}
+
+.row-project:hover .project-img {
+	opacity: 0.3;
+}
+
+.project-text h5 {
+	margin-bottom: 0.2rem;
+	font-size: 1.8rem;
+	font-weight: 400;
+}
+
+.col-projects {
+	margin-left: 10px;
+}
+
+@media (min-width: 550px) {
+	.col-projects {margin-left: 10px;}
+}
+
+@media (max-width: 700px) {
+	.project-text {font-size: 1.2rem;}
+	.project-text h5 {margin-bottom: 0rem;font-size: 1.35rem;}
+}
+
 .photo-col {
 	text-align: center;
 }

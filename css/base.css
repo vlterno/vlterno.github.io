@@ -3,6 +3,23 @@ html {
   height: 100%;
 }
 
+#KeyShotXR {
+    margin: auto;
+  }
+
+#pz {
+      background-image: url(../img/001.png);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    /*z-index: 500;*/
+    /*background-position: center;*/
+    background-size: contain;
+    pointer-events: none;
+    background-repeat: no-repeat;
+}
+
 body {
   height: 100%;
   font-weight: 300;
@@ -93,7 +110,7 @@ hr {
   width: 100%;
   max-width: 960px;
   margin: 0 auto;
-  padding: 0 20px;
+  /*padding: 0 20px;*/
   box-sizing: border-box;
 }
 
@@ -110,11 +127,11 @@ hr {
 }
 
 @media (min-width: 400px) {
-  .container {width: 85%; padding: 0;}
+  /*.container {width: 85%; padding: 0;}*/
 }
 
 @media (min-width: 550px) {
-  .container {width: 80%;}
+  /*.container {width: 80%;}*/
   .col {margin-left: 4%;}
   .col:first-child {margin-left: 0;}
   .one.col {width: 4.66666666667%;}
