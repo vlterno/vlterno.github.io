@@ -42,6 +42,7 @@ html, body {
 	color: #8c918e;
 	text-decoration: none;
 	font-weight: 400;
+	padding: 0px 15px 0px 15px;
 }
 
 .main-buttons a:hover {
@@ -126,11 +127,9 @@ html, body {
 }
 
 @media (min-width: 450px) {
-	.four.col.col-projects {width: 32.6666666667%;}
-}
-
-@media (min-width: 450px) {
+	.four.col.col-projects {width: 32.0666666667%;}
 	.col-projects {margin-left: 1%;}
+/*	.row-project {margin-bottom: -1px;}*/
 }
 
 @media (max-width: 700px) {
@@ -138,129 +137,6 @@ html, body {
 	.project-text h5 {margin-bottom: 0rem;font-size: 1.35rem;}
 }
 
-.photo-col {
-	text-align: center;
-}
-
-.photo {
-	border-radius: 80px; 
-	width: 140px;
-}
-
-.main-phone {
-	margin-bottom: 0;
-	padding-top: 15px;
-}
-
-.main-mail {
-	margin-bottom: 0;
-}
-
-.main-link {
-	text-decoration: none;
-}
-
-.tit {
-	text-align: center;
-	color: #333333;
-}
-
-.mini-tit {
-	display: block;
-	padding-top: 20px;
-	font-weight: 300;
-	color: #3e3e3e;
-}
-
-.job {
-	margin-bottom: 0.7rem;
-	color: #353535;
-	font-weight: 300;
-}
-
-.job_logo_2 {
-	max-width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-}
-
-.name {font-size: 1.4em;}
-.post {font-size: 1.2em;}
-
-.duration {
-	font-size: 1em;
-	color: #7f7786;
-}
-
-.job_title_2 {
-	margin-bottom: 0.7rem;
-	color: #353535;
-	font-weight: 500;
-}
-
-.job_logo_sm {
-	max-width: 40%;
-	box-sizing: border-box;
-}
-
-.job_logo_sm_mid {
-	max-width: 40%;
-	box-sizing: border-box;
-    display: block;
-    margin-left: auto;
-    margin-right: auto; 
-	padding-top: 3px;
-}
-
-.job_logo {
-	max-width: 95%;
-	box-sizing: border-box;
-}
-
-.job_logo_au {
-	max-width: 60%;
-	box-sizing: border-box;
-    display: block;
-    margin-left: auto;
-    margin-right: auto 
-}
-
-.img-size {
-	max-width: 150px;
-	max-height: 150px;
-}
-
-.img-1 {
-	max-width: 80%;
-	border-radius: 2px;
-	border: 1px solid #dadada;
-}
-
-.img-l {text-align: right;}
-.wrapper {padding-bottom: 25px;}
-.contacts {font-size: 1.5rem; font-size: 3em; letter-spacing: 0.2em; text-align: center;}
-.foot {text-align: center;}
-.phone {font-size: 0.55em; letter-spacing: normal;}
-
-.project {padding-top: 20px;}
-.project-2 {padding-bottom: 25px;}
-
-
-/*MOBILE
-...............................................................*/
 @media (max-width: 550px) {
-	.job_logo {max-width: 70%;}
-	.job_logo_sm {max-width: 35%;}
-	.tit {padding-top: 0px; padding-bottom: 0px;}
-	.mini-tit {padding-top: 0px;}
-	.wrapper {display: table;}
-	.content-left {display: table-footer-group; text-align: left; padding-left: 0;}
-	.content-right {padding-right: 0;}
-	.img-l {display: table-header-group; float: none; text-align: center;}
-	.img-mob {text-align: center;}
-	.contact-icon {width: 13.3333333333%;}
-	.contact-text {width: 82.6666666667%;}
-	.contacts {text-align: center; letter-spacing: 0.1em; padding-top: 0%; padding-left: 0%;}
-	.phone {font-size: 0.5em}
+	.row-project {margin-bottom: -1%;}
 }
