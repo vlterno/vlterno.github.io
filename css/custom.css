@@ -126,7 +126,7 @@ html, body {
 	margin-left: 1%;
 }
 
-@media (min-width: 450px) {
+@media (min-width: 350px) {
 	.four.col.col-projects {width: 32.0666666667%;}
 	.col-projects {margin-left: 1%;}
 /*	.row-project {margin-bottom: -1px;}*/
