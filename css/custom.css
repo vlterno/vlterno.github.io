@@ -22,9 +22,9 @@ html, body {
 
 .main_tittle h1 {
 	font-weight: 400;
-    /*background: -webkit-linear-gradient(15deg, #00d1cd, #1de949);*/
-    /*-webkit-background-clip: text;*/
-    /*-webkit-text-fill-color: transparent;*/
+    background: -webkit-linear-gradient(15deg, #e9984a, #9957d1);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .sub_tittle {
@@ -122,11 +122,15 @@ html, body {
 }
 
 .col-projects {
-	margin-left: 10px;
+	margin-left: 1%;
 }
 
-@media (min-width: 550px) {
-	.col-projects {margin-left: 10px;}
+@media (min-width: 450px) {
+	.four.col.col-projects {width: 32.6666666667%;}
+}
+
+@media (min-width: 450px) {
+	.col-projects {margin-left: 1%;}
 }
 
 @media (max-width: 700px) {
