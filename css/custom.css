@@ -105,20 +105,27 @@ html, body {
     -ms-transform: translate(-5%, -5%);
     text-align: center;
     color: black;
+    display: none;
+    line-height: 1.8rem;
 }
 
 .row-project:hover .project-text {
 	opacity: 1;
+	display: block;
 }
 
 .row-project:hover .project-img {
 	opacity: 0.2;
+	-ms-transform: scale(1.02); /* IE 9 */
+  -webkit-transform: scale(1.02); /* Safari 3-8 */
+  transform: scale(1.02); 
 }
 
 .project-text h5 {
 	margin-bottom: 0.2rem;
 	font-size: 1.8rem;
 	font-weight: 400;
+	line-height: 1.8rem;
 }
 
 .col-projects {
@@ -132,8 +139,8 @@ html, body {
 }
 
 @media (max-width: 700px) {
-	.project-text {font-size: 1.2rem;}
-	.project-text h5 {margin-bottom: 0rem;font-size: 1.35rem;}
+	.project-text {font-size: 1.2rem; line-height: 1.4rem;}
+	.project-text h5 {margin-bottom: 0rem;font-size: 1.35rem; line-height: 1.4rem;}
 }
 
 @media (max-width: 550px) {
