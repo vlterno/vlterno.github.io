@@ -101,7 +101,7 @@ html, body {
     position: absolute;
     transition: .5s ease;
     top: 15%;
-    left: 10%;
+    left: 15%;
     transform: translate(-5%, -5%);
     -ms-transform: translate(-5%, -5%);
     text-align: center;
