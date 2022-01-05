@@ -15,9 +15,8 @@ html, body {
 
 /*....................................................................*/
 
-
-.main_tittle {
-	text-align: center;
+.head {
+	padding-right: 15%;
 }
 
 .main_tittle h1 {
@@ -28,8 +27,13 @@ html, body {
 }
 
 .sub_tittle {
-	text-align: center;
 	font-weight: 100;
+}
+
+.logo {
+	width: auto;
+	float: right;
+	height: 132px;
 }
 
 .main-buttons {
@@ -117,15 +121,20 @@ html, body {
 .row-project:hover .project-img {
 	opacity: 0.2;
 	-ms-transform: scale(1.02); /* IE 9 */
-  -webkit-transform: scale(1.02); /* Safari 3-8 */
-  transform: scale(1.02); 
+  	-webkit-transform: scale(1.02); /* Safari 3-8 */
+  	transform: scale(1.02); 
 }
 
 .project-text h5 {
 	margin-bottom: 0.2rem;
 	font-size: 1.8rem;
-	font-weight: 400;
+	font-weight: 300;
 	line-height: 1.8rem;
+}
+
+.project-text a {
+	font-weight: 800;
+	color: red;
 }
 
 .col-projects {
@@ -135,12 +144,15 @@ html, body {
 @media (min-width: 350px) {
 	.four.col.col-projects {width: 32.0666666667%;}
 	.col-projects {margin-left: 1%;}
-/*	.row-project {margin-bottom: -1px;}*/
 }
 
 @media (max-width: 700px) {
 	.project-text {font-size: 1.2rem; line-height: 1.4rem;}
 	.project-text h5 {margin-bottom: 0rem;font-size: 1.35rem; line-height: 1.4rem;}
+	.head {padding-right: 0%;}
+	.head h1 {font-size: 4rem;}
+	.head h2 {font-size: 3.5rem;}
+	.logo {height: 111px;}
 }
 
 @media (max-width: 550px) {
