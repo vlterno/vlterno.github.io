@@ -13,6 +13,12 @@ html, body {
 	padding-top: 5%;
 }
 
+.page-resume {
+	background-color: #ffffff;
+	font-weight: 300;
+	padding-top: 10px;
+}
+
 /*....................................................................*/
 
 .head {
@@ -36,10 +42,19 @@ html, body {
 	height: 132px;
 }
 
+.logo-ad {
+	width: auto;
+	height: 132px;
+}
+
 .main-buttons {
 	text-align: center;
 	padding-left: 35%;
 	padding-right: 35%;
+}
+
+.active-main-button {
+	color: black !important;
 }
 
 .main-buttons a {
@@ -161,3 +176,21 @@ html, body {
 	.head-logo {align-items: center; justify-content: center; display: flex;}
 	.head-title {text-align: center;}
 }
+
+/*CV RESUME*/
+
+.cv-head {
+	padding-top: 5%;
+}
+
+.cv-head p {
+	margin-bottom: 0.5rem;
+}
+
+.def {
+	font-weight: 400;
+}
+
+
+
+
