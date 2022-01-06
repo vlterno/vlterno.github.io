@@ -184,7 +184,6 @@ html, body {
 /*CV RESUME*/
 
 .cv-head {
-	padding-top: 20px;
 	width: 90%;
 }
 
@@ -216,7 +215,7 @@ html, body {
 }
 
 .cv-title {
-	padding-top: 35px;
+	padding-top: 20px;
 }
 
 .def-body b {
