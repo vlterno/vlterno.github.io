@@ -148,7 +148,7 @@ html, body {
 
 @media (max-width: 700px) {
 	.project-text {font-size: 1.2rem; line-height: 1.4rem;}
-	.project-text h5 {margin-bottom: 0rem;font-size: 1.35rem; line-height: 1.4rem;}
+	.project-text h5 {margin-bottom: 0rem;font-size: 1.35rem; line-height: 1.4rem; margin-bottom: 4px;}
 	.head {padding-right: 0%;}
 	.head h1 {font-size: 4rem;}
 	.head h2 {font-size: 3.5rem;}
