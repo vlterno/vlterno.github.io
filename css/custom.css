@@ -152,11 +152,12 @@ html, body {
 	.head {padding-right: 0%;}
 	.head h1 {font-size: 4rem;}
 	.head h2 {font-size: 3.5rem;}
-	.logo {height: 111px; float: none;}
-	.head-logo {align-items: center; justify-content: center; display: flex;}
-	.head-title {text-align: center;}
+
 }
 
 @media (max-width: 550px) {
 	.row-project {margin-bottom: -1%;}
+	.logo {height: 111px; float: none;}
+	.head-logo {align-items: center; justify-content: center; display: flex;}
+	.head-title {text-align: center;}
 }
