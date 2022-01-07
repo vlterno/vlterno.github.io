@@ -183,17 +183,13 @@ html, body {
 
 /*CV RESUME*/
 
-.cv-head {
-	width: 90%;
-}
+.cv-head {width: 90%;}
 
-.cv-head p {
-	margin-bottom: 0.5rem;
-}
+.contact-head {width: 90%; padding-top: 35px; padding-bottom: 8%;;}
 
-.def {
-	font-weight: 400;
-}
+.cv-head p {margin-bottom: 0.5rem;}
+
+.def {font-weight: 400;}
 
 .col-m {margin-left: 4%; float: left; box-sizing: border-box;}
 .col-m:first-child {margin-left: 0;}
@@ -210,33 +206,19 @@ html, body {
 .eleven.col-m {width: 91.3333333333%;}
 .twelve.col-m {width: 100%; margin-left: 0;}
 
-.cv-body {
-	width: 90%;
-}
+.cv-body {width: 90%;}
 
-.cv-title {
-	padding-top: 20px;
-}
+.cv-title {padding-top: 20px;}
 
-.def-body b {
-	font-weight: 500;
-}
+.def-body b {font-weight: 500;}
 
-.def-body a {
-	color: black;
-}
+.def-body a {color: black;}
 
-.work {
-	padding-bottom: 20px;
-}
+.work {padding-bottom: 20px;}
 
-.work-logo {
-	width: 60px;
-}
+.work-logo {width: 60px;}
 
-.work-logo-long {
-	width: 80px;
-}
+.work-logo-long {width: 80px;}
 
 @media (max-width:  550px) {
 	.cv-head-text {padding-top: 30px;}
