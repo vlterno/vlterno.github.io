@@ -19,6 +19,12 @@ html, body {
 	padding-top: 10px;
 }
 
+.page-project {
+	background-color: #ffffff;
+	font-weight: 300;
+	padding-top: 10px;
+}
+
 /*....................................................................*/
 
 .head {
@@ -225,6 +231,12 @@ html, body {
 	.cv-title {padding-left: 0px; text-align: center;}
 }
 
+
+/*PROJECTS*/
+
+.project-body {padding-top: 30px;}
+
+.pbr {padding-top: 25px;}
 
 
 
