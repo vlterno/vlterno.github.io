@@ -226,7 +226,7 @@ html, body {
 
 .work-logo-long {width: 80px;}
 
-@media (max-width:  550px) {
+@media (max-width: 550px) {
 	.cv-head-text {padding-top: 30px;}
 	.cv-title {padding-left: 0px; text-align: center;}
 }
@@ -235,8 +235,66 @@ html, body {
 /*PROJECTS*/
 
 .project-body {padding: 30px 20px;}
-
 .pbr {padding-top: 25px;}
 
+.pbr-bg {padding-top: 20px;}
+.rbp {padding-bottom: 25px;}
 
+.project-bg {
+    max-width: 100%;
+    color: white;
+	height: auto;
+    position: relative;
+    display: grid;
+}
+
+.project-sq {
+	display: grid;
+}
+
+.flex {
+	display: flex;
+}
+
+.container-sq {
+    position: relative;
+    width: 100%;
+    max-width: 1150px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.tf-bg-3 {
+	background-color: #e2e2e2;
+}
+
+.project-sq-text {
+	padding-top: 2rem;
+}
+
+.project-sq-text-head {
+	padding-top: 2%;
+	padding-left: 2%;
+}
+
+.project-bg-text {
+	position: absolute;
+    top: 0;
+    margin: 0 auto;
+    padding: 0 10%;
+    box-sizing: border-box;
+}
+
+.bg-img {
+	width: 100%;
+    top: 0;
+}
+
+.w-b-text {background-color: rgb(70 70 70 / 0%);}
+
+@media (max-width: 550px) {
+	.w-b-text {background-color: rgb(70 70 70 / 50%);}
+	.pbr-bg {padding-top: 5px;}
+}
 
