@@ -304,3 +304,6 @@ html, body {
 	.pbr-bg {padding-top: 5px;}
 }
 
+.project-header {text-align: center;}
+.project-header h3, h5 {margin-bottom: 0rem;}
+
