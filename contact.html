@@ -79,7 +79,7 @@
 								<p>Linkedin</p>
 							</div>
 							<div class="nine col-m def">
-								<a href="http://www.linkedin.com/in/vlterno">linkedin.com/in/vlterno</a> <br>
+								<a href="http://www.linkedin.com/in/vlterno" target="_blank">linkedin.com/in/vlterno</a> <br>
 							</div>
 						</div>
 
@@ -88,7 +88,7 @@
 								<p>Location</p>
 							</div>
 							<div class="nine col-m def">
-								<p>Boston, MA, US</p>
+								<p>Redwood City, CA, US</p>
 							</div>
 						</div>
 
@@ -102,17 +102,17 @@
 							</div>
 						</div>
 
-						<div class="row">
-							<p>Authorized to work in the US for any employer</p>
+						<div class="row download-button">
+							<a class="button" href="./add/Vladimir_Ternovykh_Resume_Sep_2023.pdf" target="_blank" download>Download Resume</a>
 						</div>
+
 					</div>
 				</div>
 			</div>
 			
 		</div>
 
-
-		<div class="bottom">
+		<div class="bottom" id="specialBottom">
 			<div class="row item-center">
 				<a href="index.html">Portfolio</a>
 			</div>
@@ -130,7 +130,19 @@
 
 	</div>
 
+	<script type="text/javascript">
+		window.addEventListener('scroll', function() {
+    var contentHeight = document.body.scrollHeight;
+    var screenHeight = window.innerHeight;
+    var specialBottomDiv = document.getElementById('specialBottom');
 
+    if (contentHeight > screenHeight) {
+        specialBottomDiv.style.position = 'static';
+    } else {
+        specialBottomDiv.style.position = 'fixed';
+    }
+});
+	</script>
 
 </body>
 </html>

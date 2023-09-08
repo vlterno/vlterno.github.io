@@ -57,6 +57,7 @@ html, body {
 	text-align: center;
 	padding-left: 35%;
 	padding-right: 35%;
+	padding-bottom: 15px;
 }
 
 .active-main-button {
@@ -74,6 +75,18 @@ html, body {
 	padding: 0px 15px 0px 15px;
 }
 
+.download-button {
+	width: 50%;
+}
+
+.download-button a {
+	color: #8c918e;
+	text-decoration: none;
+	font-weight: 400;
+	padding: 0px 15px 0px 15px;
+	width: 100%;
+}
+
 .main-buttons a:hover {
 	color: black;
 }
@@ -84,6 +97,17 @@ html, body {
 	margin-top: 20px;
 	background-color: #28282a;
 	color: white;
+}
+
+#specialBottom {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #28282a;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
 }
 
 .bottom a {
@@ -103,9 +127,9 @@ html, body {
 
 /*....................................................................*/
 
-.projects {
+/*.projects {
 	padding-top: 25px;
-}
+}*/
 
 .projects-line-1 {
 	height: 150px;
@@ -302,8 +326,8 @@ html, body {
 @media (max-width: 550px) {
 	.w-b-text {background-color: rgb(70 70 70 / 50%);}
 	.pbr-bg {padding-top: 5px;}
+	.download-button {width: 100%;}
 }
 
 .project-header {text-align: center;}
 .project-header h3, h5 {margin-bottom: 0rem;}
-
