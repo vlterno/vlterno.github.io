@@ -201,7 +201,8 @@ html, body {
 	.head {padding-right: 0%;}
 	.head h1 {font-size: 4rem;}
 	.head h2 {font-size: 3.5rem;}
-
+	.fl_logo_a {align-items: center; justify-content: center; display: flex; padding-bottom: 15px;}
+	.fl_logo {width: 30%;}
 }
 
 @media (max-width: 550px) {
@@ -248,7 +249,7 @@ html, body {
 
 .work-logo {width: 60px;}
 
-.work-logo-long {width: 80px;}
+.work-logo-long {width: 85px;}
 
 @media (max-width: 550px) {
 	.cv-head-text {padding-top: 30px;}
@@ -327,6 +328,7 @@ html, body {
 	.w-b-text {background-color: rgb(70 70 70 / 50%);}
 	.pbr-bg {padding-top: 5px;}
 	.download-button {width: 100%;}
+	.project-body {width: 95%}
 }
 
 .project-header {text-align: center;}
