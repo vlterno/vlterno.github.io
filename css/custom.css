@@ -322,6 +322,10 @@ html, body {
     top: 0;
 }
 
+.image_row {
+	padding-top: 20px;
+}
+
 .w-b-text {background-color: rgb(70 70 70 / 0%);}
 
 @media (max-width: 550px) {
